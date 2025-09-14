@@ -1,0 +1,36 @@
+# Test PSD Files
+
+This folder is set up for testing the PSD to PNG Converter.
+
+## How to Test:
+
+1. **Place PSD Files**: Copy some Adobe Photoshop PSD files into the `input/` folder
+2. **Run the Application**: Use `cargo run --release` or the provided scripts
+3. **Test Drag & Drop**: Drag the `input` folder onto the application
+4. **Select Output**: Choose the `output` folder as the destination
+5. **Convert**: Click "Start Conversion" and watch the progress
+
+## Sample Workflow:
+
+```
+1. Copy your PSD files to: examples/input/
+2. Run the application
+3. Drag examples/input/ onto the app
+4. Select examples/output/ as output folder
+5. Click "Start Conversion"
+6. Check examples/output/ for converted PNG files
+```
+
+## Expected Results:
+
+- All PSD files in the input folder will be converted to PNG format
+- The folder structure will be preserved
+- Progress will be shown in real-time
+- Any errors will be displayed clearly
+
+## Notes:
+
+- The converter works best with standard PSD files
+- Complex layer effects may not convert perfectly
+- Large files may take some time to process
+- Make sure you have write permissions to the output folder
